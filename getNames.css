@@ -1,0 +1,16 @@
+body {
+	align-content: center;
+	text-align: center;
+	background-color: #ff3bba;
+	font-family: 'Times New Roman', serif;
+}
+
+#click {
+	background-color: black;
+	color: white;
+	font-family: 'Times New Roman', serif;
+}
+
+.header {
+	line-height: .5em;
+}
