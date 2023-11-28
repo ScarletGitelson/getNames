@@ -2,7 +2,8 @@ const names = [ 'Jordan Abell', 'Marc Abrahams', 'Gavin Addison', 'Kavina Aggarw
 
 
 function getName(){
-	let num = (513 * Math.random());
+	let length = names.length;
+	let num = (length * Math.random());
 	let index = Math.floor(num);
 	let name = names[index];
 	let text = document.getElementById('name');
